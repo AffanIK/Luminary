@@ -38,6 +38,8 @@
     "128": "assets/icons/icon128.png"
   },
 
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw7Yg9nljTRB22Q7Z7LkV4PuPEQfiU+bAmLTuO0cMiNmNgPesLyIhy1Zp4vYbvcvXVritmvePsjWXwxmZP5NM/SvM2ANlk/pwtvxyo0OzeGQ1/MqxbL5MUhwONucenT1xCxJ7jGUzvBwg1KBjtmuwWf2bl0MqiTLlP6Z3phTaVfx01P5OU0W5vRCbgHpdDxxgjoNRlYpg4GVyrXnlD7iiKQMC8zs03eEZHak+4HuK381CJX+QH3jJfk2uHyZqUX1ZlQP6HufE2ItFVHfyMSPBgSP48XOusEemzSMFjkLhF/fR4T18SXW+TR2/B1+OQXm8aQnt1bjPoAv4GFkGLK2sDwIDAQAB",
+
   "commands": {
     "_execute_action": {
       "suggested_key": { "default": "Ctrl+Shift+L", "mac": "Command+Shift+L" },
