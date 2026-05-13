@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Luminary",
+  "version": "1.0.0",
+  "description": "Glassmorphism notes with rich Markdown, animations, and cross-device sync.",
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "sidePanel"
+  ],
+
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16":  "assets/icons/icon16.png",
+      "32":  "assets/icons/icon32.png",
+      "48":  "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    },
+    "default_title": "Luminary Notes"
+  },
+
+  "side_panel": {
+    "default_path": "sidepanel/sidepanel.html"
+  },
+
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+
+  "icons": {
+    "16":  "assets/icons/icon16.png",
+    "32":  "assets/icons/icon32.png",
+    "48":  "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Ctrl+Shift+L", "mac": "Command+Shift+L" },
+      "description": "Open Luminary quick capture"
+    },
+    "open-side-panel": {
+      "suggested_key": { "default": "Ctrl+Shift+N", "mac": "Command+Shift+N" },
+      "description": "Open Luminary side panel"
+    }
+  }
+}

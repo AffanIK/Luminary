@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.sublime-*
+
+# Dev-only files (not needed by the extension)
+assets/icons/generate-icons.html
